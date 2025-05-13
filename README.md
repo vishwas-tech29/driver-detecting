@@ -37,23 +37,24 @@ To start the monitoring system, use the following command:
 python driver_monitoring_system.py
 Project Structure
 
-driver-monitoring-system/
-│
-├── driver_monitoring_system.py    # Main application file
-├── README.md                     # Project overview and instructions
-├── requirements.txt              # Python dependencies
-├── models/                       # Pre-trained models for detection
-│   ├── face_detection.tflite
-│   ├── phone_detection.tflite
-│   └── ...
-├── logs/                         # Log files for alerts and driver activity
-│   ├── activity_log.txt
-│   └── ...
-└── utils/                        # Utility scripts and helper functions
-    ├── detection.py              # Contains code for detection algorithms
-    ├── alert.py                  # Code for triggering alerts
-    └── ...
-Usage
+Here’s the project structure converted into a table format:
+
+| **Directory/File**              | **Description**                          |
+| ------------------------------- | ---------------------------------------- |
+| `driver_monitoring_system.py`   | Main application file                    |
+| `README.md`                     | Project overview and instructions        |
+| `requirements.txt`              | Python dependencies                      |
+| `models/`                       | Pre-trained models for detection         |
+| `models/face_detection.tflite`  | Face detection model                     |
+| `models/phone_detection.tflite` | Phone detection model                    |
+| `logs/`                         | Log files for alerts and driver activity |
+| `logs/activity_log.txt`         | Log file for driver activity and alerts  |
+| `utils/`                        | Utility scripts and helper functions     |
+| `utils/detection.py`            | Contains code for detection algorithms   |
+| `utils/alert.py`                | Code for triggering alerts               |
+
+Let me know if you'd like to modify anything else!
+
 The system uses a webcam to track the driver's behavior.
 
 It will alert you with a sound when it detects dangerous behaviors, such as sleeping or phone usage.
@@ -63,7 +64,13 @@ You can adjust the alert thresholds and detection sensitivity in the config.py f
 Contributing
 If you’d like to contribute to this project, feel free to fork it and create a pull request. Contributions are welcome, especially for improving detection algorithms or adding new features.
 
-Issues
+output:
+
+![WhatsApp Image 2025-05-14 at 2 12 18 AM](https://github.com/user-attachments/assets/bea4e7d1-5b4f-4fca-9a57-0aab069c9701)
+![WhatsApp Image 2025-05-14 at 2 12 18 AM (1)](https://github.com/user-attachments/assets/d1135c54-5b44-4977-bb87-f9f49f714659)
+
+Issues![WhatsApp Image 2025-05-14 at 2 12 17 AM](https://github.com/user-attachments/assets/8d35f90d-af3d-49c6-91fa-18a24cd55886)
+
 Please report any bugs or issues on the GitHub Issues page.
 
 License
